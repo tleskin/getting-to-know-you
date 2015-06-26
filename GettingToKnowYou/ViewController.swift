@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mainLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Change the label's color to red.
+//        mainLabel.textColor = UIColor.redColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +24,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonTapped(sender: UIButton) {
+        if mainLabel.text == "Coding!" {
+            mainLabel.text = "Sleeping!"
+        } else {
+            mainLabel.text = "Coding!"
+        }
+
+    }
+    
 }
 
