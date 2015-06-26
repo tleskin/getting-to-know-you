@@ -10,6 +10,6 @@ import Foundation
 
 class Person {
     
-    var name: String = "No name"
+    let name = "No name"
     
 }

@@ -38,6 +38,7 @@
 		CCA392301B3DDC7B000B070E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA392311B3DDC7B000B070E /* GettingToKnowYouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingToKnowYouTests.swift; sourceTree = "<group>"; };
 		CCA3923B1B3DF63F000B070E /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CCA3923D1B3DF90A000B070E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				CCA3923B1B3DF63F000B070E /* Person.swift */,
+				CCA3923D1B3DF90A000B070E /* MyPlayground.playground */,
 				CCA392181B3DDC7A000B070E /* GettingToKnowYou */,
 				CCA3922E1B3DDC7B000B070E /* GettingToKnowYouTests */,
 				CCA392171B3DDC7A000B070E /* Products */,
